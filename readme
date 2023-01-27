@@ -1,0 +1,20 @@
+front-end and back-end
+https://computingforgeeks.com/install-opennebula-front-end-on-ubuntu/
+
+echo "repo link"
+sudo apt-get update
+sudo apt-get install opennebula opennebula-keystone opennebula-gate opennebula-flow
+sudo apt -y install mariadb server
+service opennebula start
+service opennebula-keystone
+localhost:9869
+su -one admin
+cat .one/one_auth
+
+
+echo "repo link"
+sudo apt-get update
+sudo apt-get install opennebula-node
+ssh keyscan <front-end> <node1> <node2> >>
+ssh localhost
+// passwordless connection btw FE and BE
